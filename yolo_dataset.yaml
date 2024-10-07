@@ -1,0 +1,18 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./ # dataset root dir
+train: ./data/images/train/ # train images (relative to 'path') 4 images
+val: ./data/images/val/ # val images (relative to 'path') 4 images
+test: ./data/images/test/ # test images (optional)
+
+# Classes
+names:
+    0: Background
+    1: Atelectasis
+    2: Cardiomegaly
+    3: Effusion
+    4: Infiltrate
+    5: Mass
+    6: Nodule
+    7: Pneumonia
+    8: Pneumothorax
+    # 1: Something
